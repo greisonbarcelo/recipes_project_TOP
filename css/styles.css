@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4a4242;
+    box-sizing: inherit;
+}
+.title{
+    text-align: center;
+    font-size: 42px;
+    background-color: bisque;
+    padding: 24px;
+    margin: 0;
+}
+.container {
+    margin-top: 20px;
+    display:flex;
+}
+.container .list {
+    border: 1px solid red;
+    font-size: 32px;
+    padding-top: 24px 8px;
+}
+.img-carbonara {
+    height: auto;
+    width: 500px;
+}
+
